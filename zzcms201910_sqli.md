@@ -1,5 +1,7 @@
 ## ZZCMS sql injection in nginx server
+
 ## PoC by britzlieg
+
 #### ZZCMS the 201910 version download page : 
 http://www.zzcms.net/about/6.htm
 
@@ -8,7 +10,7 @@ http://www.zzcms.net/download/zzcms201910.zip
 
 ### vulnerability code:
 
-in file "/zt/top.php", line 5
+In file `/zt/top.php`, line 5
 
 
 ```php
@@ -62,10 +64,10 @@ jobname=1&sm=1&province=%E5%8C%97%E4%BA%AC&city=%E5%B8%82%E8%BE%96%E5%8C%BA&xian
 
 
 #### jinject code
-![](res/zzcms201910/a.png)
+![](https://rawcdn.githack.com/britzlieg/POC/68c98bcf9159677c24aa102620416513868a27bf/res/zzcms201910/a.jpg)
 
 #### sleep(8)
-![](res/zzcms201910/1.png)
+![](https://rawcdn.githack.com/britzlieg/POC/68c98bcf9159677c24aa102620416513868a27bf/res/zzcms201910/1.jpg)
 
 #### sleep(1)
-![](res/zzcms201910/2.png)
+![](https://rawcdn.githack.com/britzlieg/POC/68c98bcf9159677c24aa102620416513868a27bf/res/zzcms201910/2.jpg)
